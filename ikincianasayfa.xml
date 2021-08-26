@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFECEC"
+    android:foregroundGravity="fill_vertical"
+    tools:context=".ikincianasayfa">
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="180dp"
+        android:layout_height="139dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/tasarim"
+        android:foreground="@drawable/ev"
+        android:gravity="center"
+        android:onClick="ailem"
+        app:backgroundTint="#F3F0F0"
+        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintEnd_toStartOf="@+id/button11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="180dp"
+        android:layout_height="139dp"
+
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/tasarim"
+        android:foreground="@drawable/medicine"
+        android:gravity="center"
+        android:onClick="ilaclarim"
+        app:backgroundTint="#F3F0F0"
+        app:layout_constraintBottom_toTopOf="@+id/button12"
+        app:layout_constraintEnd_toStartOf="@+id/button9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="180dp"
+        android:layout_height="139dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/tasarim"
+        android:foreground="@drawable/calar"
+        android:gravity="center"
+        android:onClick="alarm"
+        app:backgroundTint="#F3F0F0"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button10" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="180dp"
+        android:layout_height="139dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/tasarim"
+        android:foreground="@drawable/doktor"
+        android:gravity="center"
+        android:onClick="doktorum"
+        app:backgroundTint="#F3F0F0"
+        app:layout_constraintBottom_toTopOf="@+id/button17"
+        app:layout_constraintEnd_toStartOf="@+id/button16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button8" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="180dp"
+        android:layout_height="139dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/tasarim"
+        android:foreground="@drawable/shopping"
+        android:gravity="center"
+        android:onClick="alisveris"
+        app:backgroundTint="#F3F0F0"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button12" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="180dp"
+        android:layout_height="139dp"
+        android:layout_marginEnd="12dp"
+
+        android:layout_marginRight="12dp"
+        android:background="@drawable/tasarim"
+        android:foreground="@drawable/konumu"
+        android:gravity="center"
+        android:onClick="nerdeyim"
+        app:backgroundTint="#F3F0F0"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button8" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="336dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/tasarim"
+        android:foreground="@drawable/arama"
+        android:onClick="acil"
+        android:text="Button"
+        app:backgroundTint="#F6F5F5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
